@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    margin: 0;
+    min-height: 100%;
+    /* background: url('/images/mulher_cabelo.jpg'); */
+    background-color: rgb(243, 237, 237);
+}
+
+body {
+    min-height: 100vh;
+}
+
+app-root {
+    display: block;
+    min-height: 100vh;
+}

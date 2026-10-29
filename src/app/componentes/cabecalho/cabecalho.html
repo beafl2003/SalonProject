@@ -1,0 +1,28 @@
+<header class="cabecalho">
+<nav class="cabecalho__navegacao">
+    <ul>
+    @for (link of links; track link.rota) {
+        <li>
+        <a
+            [routerLink]="link.rota"
+            routerLinkActive="ativo"
+            [routerLinkActiveOptions]="{ exact: link.rota === '/' }"
+        >
+            {{ link.texto }}
+        </a>
+        </li>
+    }
+    </ul>
+</nav>
+
+<ul class="redes-sociais">
+    @for (rede of redes; track rede.nome ){
+
+        <li>
+        <a [href]="rede.url" target="_blank" rel="noopener" [attr.aria-label]="rede.nome">
+        <i class="fa-brands" [class]="'fa-brands ' + rede.icone"></i>
+        </a>
+        </li>
+    }
+</ul>
+</header>
