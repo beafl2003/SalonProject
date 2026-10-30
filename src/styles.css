@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 html, body {
     margin: 0;
     min-height: 100%;
@@ -18,7 +20,10 @@ app-root {
     --espaco-1 : 0.5rem;
     --espaco-5 : 4rem;
     --cor-destaque: #a4553b;
-    --fonte-texto: 'Raleway', sans-serif;
+    --fonte-texto:  'Ubuntu', sans-serif;
     --cor-destaque-forte: #11100f;
+    --cor-destaque-fraco: #444342;
+    --fonte-logo: 'Abril Fatface', sans-serif;
+    --fonte-secumdaria: 'Raleway', sans-serif;
     
 }
