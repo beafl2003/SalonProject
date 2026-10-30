@@ -1,0 +1,36 @@
+.destaque {
+    padding-block: var(--espaco-5);
+}
+
+.botao {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--espaco-1);
+    padding: 0.85rem 1.75rem;
+    border-radius: 999px;
+    border: 2px solid var(--cor-destaque);
+    background: var(--cor-destaque);
+    color: #fff;
+    font-family: var(--fonte-texto);
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.botao:hover {
+    background: var(--cor-destaque-forte);
+    border-color: var(--cor-destaque-forte);
+}
+
+.botao--contorto {
+    background: transparent;
+    color: var(--cor-destaque);
+}
+
+
+.botao--contorno:hover {
+    background: var(--cor-destaque);
+    color: #fff;
+}

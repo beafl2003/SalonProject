@@ -13,3 +13,12 @@ app-root {
     display: block;
     min-height: 100vh;
 }
+
+:root {
+    --espaco-1 : 0.5rem;
+    --espaco-5 : 4rem;
+    --cor-destaque: #a4553b;
+    --fonte-texto: 'Raleway', sans-serif;
+    --cor-destaque-forte: #11100f;
+    
+}
