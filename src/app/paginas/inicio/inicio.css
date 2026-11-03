@@ -52,6 +52,12 @@
     margin-bottom: var(--espaco-5);
     padding: 0 var(--espaco-5);
 }
+.titulo-principal-linha-1 {
+    display: block;
+}
+.titulo-principal-linha-2 {
+    display: block;
+}
 .botao--contorno:hover {
     background: var(--cor-destaque);
     color: #fff;
@@ -64,13 +70,22 @@
     padding:  var(--espaco-5);
 }
 
+.imagem_inicio_container
+{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .imagem_inicio {
     width: 100%;
-    max-width: 600px;
-    height: auto;
+    max-width: 500px;
     display: block;
     margin-left: auto;
-    padding-right: 0 var(--espaco-5);
-    margin-top: -400px;
+    transform: translateY(-500px); 
+    transition: transform 0.3s ease; 
+    border-radius: 250px 250px 0 0;
 }
+
+
 

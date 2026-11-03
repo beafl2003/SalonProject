@@ -8,7 +8,8 @@ html, body {
 }
 
 body {
-    min-height: 100vh;
+    margin: 0 auto;
+    width: 100%;
 }
 
 app-root {
@@ -25,5 +26,11 @@ app-root {
     --cor-destaque-fraco: #444342;
     --fonte-logo: 'Abril Fatface', sans-serif;
     --fonte-secumdaria: 'Raleway', sans-serif;
-    
+
 }
+
+/* *
+{
+
+        outline: 1px solid red !important;
+} */
